@@ -45,6 +45,9 @@ h1 {
 }
 
 
+#wrapper {
+  width: 960px;
+}
 
 
 a {
@@ -95,27 +98,27 @@ p {
 }
 
 
-#beach {
+/*#beach {
   float: left;
   padding-top: 20px;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 10px;
-  /*position: relative;
-  left: 150px;*/
+  position: relative;
+  left: 150px;
 }
 
 #city{
   float: left;
   padding-top: 20px;
   padding-left: 20px;
-  /*padding-right: 20px;*/
+  padding-right: 20px;
   padding-bottom: 10px;
   position: relative;
   left: 23px;
-}
+}*/
 
-#culture{
+/*#culture{
   float: left;
   padding-top: 20px;
   padding-left: 20px;
@@ -125,18 +128,18 @@ p {
   top: 170px;
   left:-321px;
 }
-
+*//*
 #dj{
   float: left;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
-  /*position: relative;*/
+  position: relative;
   left: 250px;
   top: -10px;
-}
-
+}*/
+/*
 #travel{
   float: left;
   padding-top: 20px;
@@ -147,8 +150,8 @@ p {
   left: 280px;
   top: -10px;
 }
-
-#music{
+*/
+/*#music{
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -156,7 +159,7 @@ p {
   position: relative;
   left: 280px;
   top: -10px;
-}
+}*/
 
 
 #submit {
@@ -218,7 +221,11 @@ h3 {
   background-color: #666666;
 }
 
-
+.portfolio-image{
+  width:30%;
+  float:left;
+  margin: 5px;
+}
 
 
 
