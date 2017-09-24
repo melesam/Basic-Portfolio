@@ -37,11 +37,14 @@ h1 {
 .tabs {
   float: right;
   text-align: left;
-  right: -606px;
+  left: 946px;
   position: absolute;
-  width: 960px;
   top: 15px;
   font-family 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.tabs ul li {
+  display: inline-block;
 }
 
 
@@ -173,7 +176,8 @@ p {
 }
 
 .Connect {
-  float: left;
+  float: right;
+  padding: 20px;
   margin-left: 20px;
   margin-top: 40px;
   width: 200px;
@@ -182,8 +186,10 @@ p {
   border-color: #dddddd;
   background-color: #ffffff;
   text-align: left;
-  padding:20px;
+  left: 911px;
+  position: absolute;
 }
+
 
 h3 {
   color:#4aaaa5;

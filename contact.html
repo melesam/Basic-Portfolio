@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>contact-Student Portfolio</title>
+	<title>Contact-Student Portfolio</title>
 	<link rel= "stylesheet" type= "text/css" href= "assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -16,49 +16,62 @@
 
 	<header class="header">
 		<h1>Mel Martin</h1>
+
+		<section class="tabs">
+
+			<ul>
+				<li>
+					<a href="index.html">About	|</a>
+				</li>
+				<li>
+					<a href="portfolio.html">Portfolio	|</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+
+		</section>
+
 	</header>
 
-	<section class="tabs">
 
-		<ul>
-			<a href="index.html">About	|</a>
-			<a href="portfolio.html">Portfolio	|</a>
-			<a href="contact.html">Contact</a>
-		</ul>
+	<div id="wrapper">
 
-	</section>
+		<section class="container">		
 
-	<section class="container">
+			<h2>Contact</h2>
 
-		<h2>Contact</h2>
+			<form action="/action_page.php">
+				
+				<p>
+					<label for="fname">Name</label>
+					<br>
+					<input type="text" id="name" name="name" placeholder="Ex John Smith" style="width:655px;">
+				</p>
 
-		<form action="/action_page.php">
-			
-			<p>
-				<label for="fname">Name</label>
-				<br>
-				<input type="text" id="name" name="name" placeholder="Ex John Smith" style="width:655px;">
-			</p>
+				<p>
+					<label for="Email">Email</label>
+					<br>
+					<input type="text" id="Email" name="Email" placeholder="example@gmail.com" style="width:655px;">
+				</p>
 
-			<p>
-				<label for="Email">Email</label>
-				<br>
-				<input type="text" id="Email" name="Email" placeholder="example@gmail.com" style="width:655px;">
-			</p>
+				<p>
+					<label for="Message">Message</label>
+					<br>
+					<textarea id="Message" name="Message" placeholder="" style="height:100px; width:655px;"></textarea>
+				</p>
 
-			<p>
-				<label for="Message">Message</label>
-				<br>
-				<textarea id="Message" name="Message" placeholder="" style="height:100px; width:655px;"></textarea>
-			</p>
+				<p>
+					<input type="submit" value="Submit" id="submit">
+				</p>
 
-			<p>
-				<input type="submit" value="Submit" id="submit">
-			</p>
+			</form>
 
-		</form>
+		</section>
 
-	</section>
+	</div>
+
 	
 
 	<aside class="Connect">
@@ -76,13 +89,14 @@
 		</div>
 	</aside>
 	
-
-</body>
-
 <footer class="footer">
+
 	<p>&#169 Copyright Melesa Martin</p>
 	
 </footer>
+
+</body>
+
 
 </html>
 
